@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="microwave.RunCucumberTest" time="0.727" tests="66" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Users\Florin\Documents\Eclipse-Workspace\Microwave\target\test-classes;D:\Users\Florin\Documents\Eclipse-Workspace\Microwave\target\classes;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Florin\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Florin\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Florin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Florin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Florin\AppData\Local\Temp\surefire2636416933184913302\surefirebooter8959058265458326265.jar C:\Users\Florin\AppData\Local\Temp\surefire2636416933184913302 2022-05-20T16-47-00_431-jvmRun1 surefire33631004370557670tmp surefire_015363552219692193833tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Users\Florin\Documents\Eclipse-Workspace\Microwave\target\test-classes;D:\Users\Florin\Documents\Eclipse-Workspace\Microwave\target\classes;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Florin\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Florin\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Florin\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Florin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Florin\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Florin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Florin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Florin"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Users\Florin\Documents\Eclipse-Workspace\Microwave"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Florin\AppData\Local\Temp\surefire2636416933184913302\surefirebooter8959058265458326265.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+10"/>
+    <property name="user.name" value="Florin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.15+10"/>
+    <property name="localRepository" value="C:\Users\Florin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Florin\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="D:\Users\Florin\Documents\Eclipse-Workspace\Microwave"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Florin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Florin\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\VSCodium\bin;D:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files\Calibre2;C:\Program Files\Git\cmd;C:\Users\Florin\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Florin\AppData\Local\Programs\Python\Python310;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.15+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Open a closed microwave" classname="Using a closed microwave with no item in it" time="0.098">
+    <system-out><![CDATA[
+Scenario: Open a closed microwave  &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m   &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the door&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_open_the_door()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door opens&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.the_door_opens_and_the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light turns on&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to reset time in a microwave" classname="Using a closed microwave with no item in it" time="0.016">
+    <system-out><![CDATA[
+Scenario: Trying to reset time in a microwave &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset timer button&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_press_reset_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe timer must be set to zero&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.the_timer_must_be_set_to_zero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to reset power in a microwave" classname="Using a closed microwave with no item in it" time="0.007">
+    <system-out><![CDATA[
+Scenario: Trying to reset power in a microwave &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset power button&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.i_press_reset_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe power must be set to zero&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.the_power_must_be_set_to_zero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to cook in a closed microwave with no item" classname="Using a closed microwave with no item in it" time="0.007">
+    <system-out><![CDATA[
+Scenario: Trying to cook in a closed microwave with no item &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m                            &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                             &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                                &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                          &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must not start cooking&amp#27;[0m                 &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_not_start_cooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.012">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/ClosedFullMicrowave.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/ClosedFullMicrowave.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Cooking time finishes correctly &amp#27;[90m# microwave/CookingWithMicrowave.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                      &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit passes &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                         &amp#27;[90m# microwave.StepDefinitions.it_passes_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/OpenedMicrowave.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/OpenedMicrowave.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/ClosedFullMicrowave.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/ClosedFullMicrowave.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Cooking time finishes correctly &amp#27;[90m# microwave/CookingWithMicrowave.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                      &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit passes &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                         &amp#27;[90m# microwave.StepDefinitions.it_passes_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/OpenedMicrowave.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/OpenedMicrowave.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power  &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"20"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/ClosedFullMicrowave.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power  &amp#27;[90m# microwave/ClosedFullMicrowave.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"20"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: Cooking time finishes correctly &amp#27;[90m# microwave/CookingWithMicrowave.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                      &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit passes &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.it_passes_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time  &amp#27;[90m# microwave/OpenedMicrowave.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power  &amp#27;[90m# microwave/OpenedMicrowave.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"20"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time   &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"15"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.01">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power   &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"200"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time   &amp#27;[90m# microwave/ClosedFullMicrowave.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"15"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power   &amp#27;[90m# microwave/ClosedFullMicrowave.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"200"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Cooking time finishes correctly &amp#27;[90m# microwave/CookingWithMicrowave.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                      &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit passes &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.it_passes_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time   &amp#27;[90m# microwave/OpenedMicrowave.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"15"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power   &amp#27;[90m# microwave/OpenedMicrowave.feature:62&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"200"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.01">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time    &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power   &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"201"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time    &amp#27;[90m# microwave/ClosedFullMicrowave.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power   &amp#27;[90m# microwave/ClosedFullMicrowave.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"201"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Cooking time finishes correctly &amp#27;[90m# microwave/CookingWithMicrowave.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m40&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                      &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit passes &amp#27;[0m&amp#27;[32m&amp#27;[1m40&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.it_passes_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time    &amp#27;[90m# microwave/OpenedMicrowave.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #5" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power   &amp#27;[90m# microwave/OpenedMicrowave.feature:63&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"201"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.01">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time   &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m40&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"40"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/ClosedEmptyMicrowave.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time   &amp#27;[90m# microwave/ClosedFullMicrowave.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m40&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"40"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/ClosedFullMicrowave.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Cooking time finishes correctly &amp#27;[90m# microwave/CookingWithMicrowave.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m120&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                  &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                      &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit passes &amp#27;[0m&amp#27;[32m&amp#27;[1m120&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                       &amp#27;[90m# microwave.StepDefinitions.it_passes_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                    &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set time   &amp#27;[90m# microwave/OpenedMicrowave.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m      &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m40&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"40"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #6" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Trying to set power &amp#27;[90m# microwave/OpenedMicrowave.feature:64&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close the door of a full door-opened microwave" classname="Using a closed Microwave with an item inside" time="0.005">
+    <system-out><![CDATA[
+Scenario: Close the door of a full door-opened microwave &amp#27;[90m# microwave/ClosedFullMicrowave.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m                        &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI insert food&amp#27;[0m                                      &amp#27;[90m# microwave.StepDefinitions.i_insert_food()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI close the door&amp#27;[0m                                  &amp#27;[90m# microwave.StepDefinitions.i_close_the_door()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door is closed&amp#27;[0m                                &amp#27;[90m# microwave.StepDefinitions.the_door_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                               &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                           &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                       &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to reset time in a microwave" classname="Using a closed Microwave with an item inside" time="0.005">
+    <system-out><![CDATA[
+Scenario: Trying to reset time in a microwave &amp#27;[90m# microwave/ClosedFullMicrowave.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset timer button&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_press_reset_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe timer must be set to zero&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.the_timer_must_be_set_to_zero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to reset power in a microwave" classname="Using a closed Microwave with an item inside" time="0.005">
+    <system-out><![CDATA[
+Scenario: Trying to reset power in a microwave &amp#27;[90m# microwave/ClosedFullMicrowave.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset power button&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.i_press_reset_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe power must be set to zero&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.the_power_must_be_set_to_zero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Start cooking with a microwave" classname="Cooking with a closed full microwave" time="0.008">
+    <system-out><![CDATA[
+Scenario: Start cooking with a microwave &amp#27;[90m# microwave/CookingWithMicrowave.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m       &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must start cooking&amp#27;[0m  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_start_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light turns on&amp#27;[0m                 &amp#27;[90m# microwave.StepDefinitions.the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is turning&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.the_plate_is_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is heating&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_heating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Increase time during cooking process" classname="Cooking with a closed full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Increase time during cooking process                                         &amp#27;[90m# microwave/CookingWithMicrowave.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the increase timer button&amp#27;[0m                                               &amp#27;[90m# microwave.StepDefinitions.i_press_the_increase_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"11"&amp#27;[0m                                                 &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe cooking time must be &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m                                                      &amp#27;[90m# microwave.StepDefinitions.the_cooking_time_must_be(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Decrease time during cooking process" classname="Cooking with a closed full microwave" time="0.008">
+    <system-out><![CDATA[
+Scenario: Decrease time during cooking process                                         &amp#27;[90m# microwave/CookingWithMicrowave.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the decrease timer button&amp#27;[0m                                               &amp#27;[90m# microwave.StepDefinitions.i_press_the_decrease_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"9"&amp#27;[0m                                                  &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe cooking time must be &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                                                       &amp#27;[90m# microwave.StepDefinitions.the_cooking_time_must_be(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Increase power during cooking process" classname="Cooking with a closed full microwave" time="0.006">
+    <system-out><![CDATA[
+Scenario: Increase power during cooking process                                        &amp#27;[90m# microwave/CookingWithMicrowave.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the increase power button&amp#27;[0m                                               &amp#27;[90m# microwave.StepDefinitions.i_press_the_increase_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"101"&amp#27;[0m                                                &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Decrease power during cooking process" classname="Cooking with a closed full microwave" time="0.003">
+    <system-out><![CDATA[
+Scenario: Decrease power during cooking process                                        &amp#27;[90m# microwave/CookingWithMicrowave.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the decrease power button&amp#27;[0m                                               &amp#27;[90m# microwave.StepDefinitions.i_press_the_decrease_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"99"&amp#27;[0m                                                 &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Abort cooking process by opening the door" classname="Cooking with a closed full microwave" time="0.007">
+    <system-out><![CDATA[
+Scenario: Abort cooking process by opening the door                                  &amp#27;[90m# microwave/CookingWithMicrowave.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the door&amp#27;[0m                                                               &amp#27;[90m# microwave.StepDefinitions.i_open_the_door()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door opens&amp#27;[0m                                                                &amp#27;[90m# microwave.StepDefinitions.the_door_opens_and_the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m                                                   &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light turns on&amp#27;[0m                                                             &amp#27;[90m# microwave.StepDefinitions.the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                                                       &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                                                   &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Start again cooking after opening the microwave while it was cooking" classname="Cooking with a closed full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Start again cooking after opening the microwave while it was cooking       &amp#27;[90m# microwave/CookingWithMicrowave.feature:66&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the door&amp#27;[0m                                                               &amp#27;[90m# microwave.StepDefinitions.i_open_the_door()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI close the door&amp#27;[0m                                                               &amp#27;[90m# microwave.StepDefinitions.i_close_the_door()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the increase timer button&amp#27;[0m                                              &amp#27;[90m# microwave.StepDefinitions.i_press_the_increase_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"4"&amp#27;[0m                                                &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Abort cooking process by resetting the timer" classname="Cooking with a closed full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Abort cooking process by resetting the timer                              &amp#27;[90m# microwave/CookingWithMicrowave.feature:73&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset timer button&amp#27;[0m                                                   &amp#27;[90m# microwave.StepDefinitions.i_press_reset_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m                                                 &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                                                          &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                                                      &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                                                  &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m                                                &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Abort cooking process by resetting the power" classname="Cooking with a closed full microwave" time="0.006">
+    <system-out><![CDATA[
+Scenario: Abort cooking process by resetting the power                                 &amp#27;[90m# microwave/CookingWithMicrowave.feature:82&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m600&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset power button&amp#27;[0m                                                      &amp#27;[90m# microwave.StepDefinitions.i_press_reset_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m                                                    &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                                                             &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                                                         &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                                                     &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m                                                   &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Abort cooking process by pressing descrease time button when the time is 1" classname="Cooking with a closed full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Abort cooking process by pressing descrease time button when the time is 1 &amp#27;[90m# microwave/CookingWithMicrowave.feature:91&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the decrease timer button&amp#27;[0m                                             &amp#27;[90m# microwave.StepDefinitions.i_press_the_decrease_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m                                                  &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                                                           &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                                                       &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                                                   &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"Food is ready"&amp#27;[0m                                     &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                                                      &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Abort cooking process by pressing descrease power button when the power is 1" classname="Cooking with a closed full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Abort cooking process by pressing descrease power button when the power is 1 &amp#27;[90m# microwave/CookingWithMicrowave.feature:101&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma full closed microwave cooking with a timing of &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m seconds and a power of &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m   &amp#27;[90m# microwave.StepDefinitions.a_full_closed_microwave_cooking_with_a_timing_of_seconds_and_a_power_of(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the decrease power button&amp#27;[0m                                               &amp#27;[90m# microwave.StepDefinitions.i_press_the_decrease_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is not cooking&amp#27;[0m                                                    &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light are not on&amp#27;[0m                                                             &amp#27;[90m# microwave.StepDefinitions.the_light_are_not_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m                                                         &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m                                                     &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave must display &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m                                                   &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_display(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe beeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m times&amp#27;[0m                                                        &amp#27;[90m# microwave.StepDefinitions.the_beeper_sound_times(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Open a closed microwave" classname="Using an opened microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Open a closed microwave  &amp#27;[90m# microwave/OpenedMicrowave.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed empty microwave&amp#27;[0m   &amp#27;[90m# microwave.StepDefinitions.a_closed_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the door&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_open_the_door()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door opens&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.the_door_opens_and_the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe light turns on&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.the_light_turns_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe plate is not turning&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.the_plate_is_not_turning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe microwave is not heating&amp#27;[0m &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_not_heating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Placing food in a microwave" classname="Using an opened microwave" time="0.003">
+    <system-out><![CDATA[
+Scenario: Placing food in a microwave &amp#27;[90m# microwave/OpenedMicrowave.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m     &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI insert food&amp#27;[0m                  &amp#27;[90m# microwave.StepDefinitions.i_insert_food()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe food is placed&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.the_food_is_placed()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Removing food from a microwave" classname="Using an opened microwave" time="0.003">
+    <system-out><![CDATA[
+Scenario: Removing food from a microwave &amp#27;[90m# microwave/OpenedMicrowave.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened full microwave&amp#27;[0m         &amp#27;[90m# microwave.StepDefinitions.an_opened_full_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI retrieve the food&amp#27;[0m               &amp#27;[90m# microwave.StepDefinitions.i_retrieve_the_food()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave is empty&amp#27;[0m            &amp#27;[90m# microwave.StepDefinitions.the_microwave_is_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to reset time in a microwave" classname="Using an opened microwave" time="0.003">
+    <system-out><![CDATA[
+Scenario: Trying to reset time in a microwave &amp#27;[90m# microwave/OpenedMicrowave.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset timer button&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_press_reset_timer_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe timer must be set to zero&amp#27;[0m          &amp#27;[90m# microwave.StepDefinitions.the_timer_must_be_set_to_zero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to reset power in a microwave" classname="Using an opened microwave" time="0.004">
+    <system-out><![CDATA[
+Scenario: Trying to reset power in a microwave &amp#27;[90m# microwave/OpenedMicrowave.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press reset power button&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.i_press_reset_power_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe power must be set to zero&amp#27;[0m           &amp#27;[90m# microwave.StepDefinitions.the_power_must_be_set_to_zero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Trying to cook in a opened microwave" classname="Using an opened microwave" time="0.007">
+    <system-out><![CDATA[
+Scenario: Trying to cook in a opened microwave &amp#27;[90m# microwave/OpenedMicrowave.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened empty microwave&amp#27;[0m              &amp#27;[90m# microwave.StepDefinitions.an_opened_empty_microwave()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI set time to &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                &amp#27;[90m# microwave.StepDefinitions.i_set_time_to_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                   &amp#27;[90m# microwave.StepDefinitions.i_set_the_power_to(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press start cooking button&amp#27;[0m             &amp#27;[90m# microwave.StepDefinitions.i_press_start_cooking_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe microwave must not start cooking&amp#27;[0m    &amp#27;[90m# microwave.StepDefinitions.the_microwave_must_not_start_cooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
